@@ -117,6 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox3.Text" xml:space="preserve">
+    <value>This will delete all files associated with The GameRanger Account Switcher leaving only AccountSwitcher.exe for you to delete yourself.
+
+This includes any settings files for accounts that are logged out. 
+
+Keep in mind that the account that is currently logged in will be the only account that you will be able to use with GameRanger.
+
+Also keep in mind that after the uninstallation, if you run this program again, the program will automaticly create the files it needs again.</value>
+  </data>
   <data name="textBox1.Text" xml:space="preserve">
     <value>The GameRanger Account Switcher is a program that allows you to have multiple accounts in the game client program called GameRanger.
 
@@ -130,11 +139,5 @@ Button icons made by Mark James (famfamfam.com).</value>
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. 
 
 You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.</value>
-  </data>
-  <data name="textBox3.Text" xml:space="preserve">
-    <value>This will delete all files associated with The GameRanger Account Switcher leaving only AccountSwitcher.exe for you to delete yourself.
-This includes any settings files for accounts that are logged out. 
-Keep in mind that the account that is currently logged in will be the only account that you will be able to use with GameRanger.
-Also keep in mind that after the uninstallation, if you run this program again, the program will automaticly create the files it needs again.</value>
   </data>
 </root>
