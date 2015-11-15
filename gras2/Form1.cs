@@ -70,7 +70,25 @@ namespace gras2
         {
             if (System.Diagnostics.Process.GetProcessesByName(String_GameRanger).Length > 0)
             {
-                MessageBox.Show(String_GameRangerRunning, String_Title);
+                if (MessageBox.Show(String_GameRangerRunning, String_Title, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
+                {
+                    try
+                    {
+                        foreach (System.Diagnostics.Process proc in System.Diagnostics.Process.GetProcessesByName(String_GameRanger))
+                        {
+                            proc.Kill();
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                        Application.Exit();
+                    }
+                }
+                else
+                {
+                    Application.Exit();
+                }
             }
         }
 
