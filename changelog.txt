@@ -1,0 +1,21 @@
+v2.0 (11/15/2015) [93.4KB]
+-Completely rewritten in C#.
+
+v1.2 (8/21/2011) [89.5KB]
+-Removed the GameRanger.exe version check.
+-Changed the edit name dialog a little.
+-Cleaned up some code and fixed some typos.
+
+v1.1 (1/16/2011) [90.0KB]
+-Removed Help & FAQ tabs from about window. (Those can just be found at my website)
+-Added a "New Account" button to automate the account creating process.
+-Added icons to buttons to make things a little nicer looking. (Thanks Mark James [famfamfam.com])
+-Added function where the program will check to see if it can find GameRanger before starting.
+-Tweaked some error handling.
+-Made it where it will close all running instances of GameRanger instead of just one. (Just incase GameRanger messes up)
+-Fixed bug where the program would crash if you deleted all accounts.
+-Dashes and underscores are now allowed in nicknames.
+-Tied together some loose ends and cleaned up some code.
+
+v1.0 (10/16/2010) [81.5KB]
+-First release.
