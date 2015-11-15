@@ -36,6 +36,7 @@ namespace gras2
             if (MessageBox.Show(Form1.String_ConfirmUninstall, Form1.String_Title, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
             {
                 Directory.Delete(Form1.Path_AccountSwitcher, true);
+                Application.Exit();
             }
         }
 
