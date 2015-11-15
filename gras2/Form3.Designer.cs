@@ -33,11 +33,13 @@
             this.btn_close = new System.Windows.Forms.Button();
             this.link_kodieg = new System.Windows.Forms.LinkLabel();
             this.link_gameranger = new System.Windows.Forms.LinkLabel();
+            this.picture_github = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tab_about.SuspendLayout();
             this.tab_license.SuspendLayout();
             this.tab_uninstall.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_github)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -198,11 +200,23 @@
             this.link_gameranger.Text = "http://gameranger.com";
             this.link_gameranger.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.link_gameranger_LinkClicked);
             // 
+            // picture_github
+            // 
+            this.picture_github.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picture_github.Image = global::gras2.Properties.Resources.github;
+            this.picture_github.Location = new System.Drawing.Point(216, 40);
+            this.picture_github.Name = "picture_github";
+            this.picture_github.Size = new System.Drawing.Size(35, 35);
+            this.picture_github.TabIndex = 8;
+            this.picture_github.TabStop = false;
+            this.picture_github.Click += new System.EventHandler(this.picture_github_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(264, 271);
+            this.Controls.Add(this.picture_github);
             this.Controls.Add(this.link_gameranger);
             this.Controls.Add(this.link_kodieg);
             this.Controls.Add(this.btn_close);
@@ -225,6 +239,7 @@
             this.tab_license.PerformLayout();
             this.tab_uninstall.ResumeLayout(false);
             this.tab_uninstall.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_github)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -247,5 +262,6 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.LinkLabel link_kodieg;
         private System.Windows.Forms.LinkLabel link_gameranger;
+        private System.Windows.Forms.PictureBox picture_github;
     }
 }

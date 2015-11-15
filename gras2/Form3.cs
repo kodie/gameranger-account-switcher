@@ -21,6 +21,9 @@ namespace gras2
         private void Form3_Load(object sender, EventArgs e)
         {
             label_app_version.Text = "Version " + Application.ProductVersion;
+
+            System.Windows.Forms.ToolTip ToolTip1 = new System.Windows.Forms.ToolTip();
+            ToolTip1.SetToolTip(this.picture_github, "Check out the source on GitHub!");
         }
 
         private void btn_close_Click(object sender, EventArgs e)
@@ -44,6 +47,11 @@ namespace gras2
         private void link_gameranger_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("http://gameranger.com");
+        }
+
+        private void picture_github_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/kodie/gameranger-account-switcher");
         }
     }
 }
