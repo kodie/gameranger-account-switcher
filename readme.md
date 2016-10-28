@@ -9,3 +9,6 @@ The GameRanger Account Switcher is a tool for the multiplayer gaming client know
 
 ### Application Requirements
 [Microsoft .NET Framework 4](http://www.microsoft.com/download/en/details.aspx?id=17851)
+
+### Screenshots
+![](/assets/acctswitcherss.png?raw=true)
