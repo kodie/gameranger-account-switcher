@@ -4,11 +4,14 @@ The GameRanger Account Switcher is a tool for the multiplayer gaming client know
 
 <http://kodieg.com/projects/gras/>
 
-### Version
+### Current Version
 2.0
 
 ### Application Requirements
 [Microsoft .NET Framework 4](http://www.microsoft.com/download/en/details.aspx?id=17851)
+
+### Download
+[Releases](https://github.com/kodie/gameranger-account-switcher/releases)
 
 ### Screenshots
 ![](/assets/acctswitcherss.png?raw=true)
